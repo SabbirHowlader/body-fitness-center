@@ -10,7 +10,7 @@ const Product = (props) => {
             <div className='product-info'>
                 <p className='product-name'>{name}</p>
                 <p>Price: {price}$</p>
-                <p><small>Age: {age}</small></p>
+                <p><small>Age: {age} years</small></p>
                 <p><small>Time: {time}s</small></p>
             </div>
             <button className='btn-cart'>
