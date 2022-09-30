@@ -32,11 +32,11 @@ const Cart = () => {
                </div> <br />
                <h4>Add a breack</h4>
                <div className='second'>
-                 <a href="./">10s</a>
-                 <a href="./">20s</a>
-                 <a href="./">30s</a>
-                 <a href="./">40s</a>
-                 <a href="./">50s</a>
+                 <a href="/">10s</a>
+                 <a href="/">20s</a>
+                 <a href="/">30s</a>
+                 <a href="/">40s</a>
+                 <a href="/">50s</a>
                </div> <br />
                <h4>Excercise Details</h4>
                <div className='excersice'>
