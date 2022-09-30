@@ -16,29 +16,61 @@
 
 .person{
     text-align: center;
+   
   }
 .weight{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
-    background-color: white;
+    background-color:gainsboro;
     border-radius: 30px;
-    margin: 10px;
+    margin: 8px;
 }
 .second{
     border-radius:30px;
-    padding: 10px;
-    background-color: gainsboro;
+    padding: 8px;
+    background-color: white;
     text-align: center;
 }
 .second a{
     color: black;
     text-decoration: none;
     padding: 10px;
-    margin: 2px;
+    margin: 1px;
     border-radius: 30px;
-    background-color: white;
+    background-color: gainsboro;
 }
 .second a:hover{
     background-color: rgb(156, 156, 235);
+}
+.excersice{
+    border-radius: 10px;
+    background-color: gainsboro;
+    padding:1px;
+    margin: 10px;
+    text-align: left;
+    
+}
+.breck{
+    border-radius: 10px;
+    background-color: gainsboro;
+    padding:1px;
+    margin: 10px;
+    text-align: left;
+    
+}
+.btn-submit{
+    width: 15%;
+    background:#688bec;
+    border: none;
+    border: 1px solid #95A0A7;
+    border-radius: 10px;
+    margin: 20px;
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-submit:hover{
+    background-color: rgb(13, 182, 35);
 }

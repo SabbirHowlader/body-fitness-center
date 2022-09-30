@@ -24,20 +24,30 @@ const Cart = () => {
                <div className='person'>
                 <h2>MD: Sabbir Howlader</h2>
                 <p>Dhaka, Bangladesh</p>
-               </div>
+               </div> <br />
                <div className='weight'>
                 <p>75kg <br /> Weight</p>
                 <p>6.3 <br /> Height</p>
                 <p>25yrs <br /> Age</p>
-               </div>
+               </div> <br />
                <h4>Add a breack</h4>
                <div className='second'>
-                 <a href="">10s</a>
-                 <a href="">20s</a>
-                 <a href="">30s</a>
-                 <a href="">40s</a>
-                 <a href="">50s</a>
+                 <a href="./">10s</a>
+                 <a href="./">20s</a>
+                 <a href="./">30s</a>
+                 <a href="./">40s</a>
+                 <a href="./">50s</a>
+               </div> <br />
+               <h4>Excercise Details</h4>
+               <div className='excersice'>
+                <p>Excersice time</p>
                </div>
+               <div className='breck'>
+               <p>Breck time</p>
+               </div> <br />
+               <button className='btn-submit'>
+                <p>Activity Complete</p>
+               </button>
             </div>
         </div>
     );
